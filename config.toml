@@ -1,0 +1,28 @@
+baseURL = 'https://bajceta.github.io/'
+languageCode = 'en-us'
+title = 'My blog'
+theme = "origin"
+publishDir = '/home/vlada/src/innercore/blog/'
+[markup.goldmark.renderer]
+  unsafe = true
+
+[Params]
+    mainSections= ["post"]
+
+[Permalinks]
+    post = "/:filename/"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  # [[menu.main]]
+  #   name = "Posts"
+  #   pre = "<i class='fa fa-list fa-fw'></i>"
+  #   weight = 2
+  #   identifier = "post"
+  #   url = "/posts/"
