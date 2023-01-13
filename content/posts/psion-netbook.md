@@ -1,7 +1,7 @@
 ---
 title: "Psion Netbook"
 date: 2023-01-13T14:38:27+01:00
-draft: true
+draft: false
 tags: ["psion"]
 categories: ["portable"]
 ---
@@ -19,9 +19,7 @@ My experience with Cards :
 
 ## First boot
 
-Copy the NB_450UK.IMG to the CF card as os.img.
-
-On powerup Netbook will read the file into the RAM.
+Copy the NB_450UK.IMG to the CF card as os.img. On powerup Netbook will read the file into the RAM.
 
 If the battery runs down it will lose the ram and you will need to use that CF card again.
 
