@@ -15,7 +15,9 @@ My experience with CF cards :
 | HP 16MB       | no      | yes            |
 | noname 64MB   | yes     | yes            |
 | Sandisk 256MB | no      | yes            |
-| Sandisk 512MB | no      | no             |
+| Sandisk 512MB | no      | yes            |
+
+Interesting that Psion 5MX reads all of these CF cards.
 
 ## First boot
 
@@ -29,5 +31,6 @@ Please insert a bootable CF card, or start the 'RomInst' application
 1. Get the firmware file from [webarchive](https://web.archive.org/web/20071012061831/http://www.psionteklogix.com/teknet/pdk/netbook-pdk/downloads.htm).
 2. Copy the NB_450UK.IMG to the CF card as os.img.
 3. Insert CF into the CF slot. PCMCIA adapter won't work.
+
 
 There is a second way of initializing the Netbook via a serial cable.
