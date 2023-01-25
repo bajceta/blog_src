@@ -1,6 +1,6 @@
 baseURL = 'https://bajceta.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My blog'
 theme = "origin"
 publishDir = '/home/vlada/src/innercore/blog/'
 
