@@ -2,6 +2,7 @@
 title: "Void Linux on Thinkpad P50"
 date: 2023-01-25T18:31:46+01:00
 draft: false
+tags: [thinkpad,linux]
 ---
 
 
@@ -14,4 +15,5 @@ Solution found on [reddit](https://www.reddit.com/r/voidlinux/comments/ss2i14/un
 UEFI Settings -> Security -> Security Chip -> Security Chip Selection
 
 The option that was selected was "Intel PTT", and switching to "Discrete TPM" (followed by a confirmation) resolved the issue.
+
 
